@@ -1,8 +1,14 @@
 export default function Home() {
 return (
-<main className="flex min-h-screen flex-col items-center justify-between p-24">
-<h1>Next.js Challenge</h1>
-
+<main className="min-h-screen flex flex-col justify-center items-center">
+<h1 className="text-6xl font-bold mb-5">NextJS Challange</h1>
+<a className="text-sky-300 underline" href="/login">
+Login page
+</a>
+<br />
+<a href="templates" className="text-sky-300 underline">
+templates page
+</a>
 </main>
 );
 }
