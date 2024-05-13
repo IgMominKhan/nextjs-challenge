@@ -2,9 +2,21 @@ This is a NextJS challenge task from one of my honour brother. I am thankful to 
 
 ## Getting Started
 
-First run the json server using the command
+To get started,
+NOTE:- Install the dependencies using the following commands.
 
-First, run the server:
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+
+```
+
+Then run the json server using the command
 
 ```bash
 npm run jsonserver
